@@ -101,9 +101,9 @@ header h2 {
 }
 
 #main-content {
-  width: 540px;
+  width: 520px;
   float: left;
-  border: solid 1px #000000;
+  
 }
 
 #main-content img {

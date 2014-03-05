@@ -1,15 +1,112 @@
-body { font-size: 16px; }
-h1, .h1 { font-size: 52px; }
+body {
+  font-size: 16px;
+  background-color: rgb(240, 240, 240);
+}
+
+h1, .h1 {
+  font-size: 52px;
+  color: lightGray;
+}
+
 h2, .h2 { font-size: 36px; }
 h3, .h3 { font-size: 30px; }
-h4, .h4 { font-size: 24px; }
-header h1 { font-size: 72px; }
+h4, .h4 { font-size: 28px; }
+
+header h1 {
+  font-size: 72px;
+  color: #333333;
+}
+
+header {
+  background: url("/images/doge-gray.png") no-repeat bottom right;
+}
 
 section {
   padding: 20px 0;
 }
 
 section:nth-child(even) {
-  color: white;
-  background: black;
+  background-color: white;
+}
+
+.mobile-device {
+  background: rgb(230, 230, 230);
+  border-radius: 20px 20px 20px 20px;
+  padding: 1%;
+  width: 34%;
+  height: auto;
+  position: relative;
+  float: left;
+}
+
+.mic, .camera, .device-button, .screen {
+  position: relative;
+  float: left;
+  background: rgb(220, 220, 220);
+}
+
+.mic {
+  margin: 5.5% 0% 11% 40%; 
+  width: 20%;
+  height: 1px;
+  padding: 1% 0;
+  border-radius: 6px 6px 6px 6px;
+}
+
+.camera {
+  float: right;
+  margin: 3% 10% 0;
+  height: 1px;
+  width: 1px;
+  padding: 2.5%;
+  border-radius: 50%; 
+}
+
+.screen:before {
+  content: "";
+  display: block;
+	margin-top: 140%;
+}
+
+.screen {
+  width: 100%;
+  background: rgb(40,40,40);
+  color: #5A5A5A;
+}
+
+.screen .window {
+  position: absolute;
+  top: 0; bottom: 0; right: 0; left: 0;
+  z-index: 999;
+  background: none repeat scroll 0 0 rgba(255, 255,255, 0.2);
+}
+
+.screen .content {
+  position: absolute;
+  top: 0; bottom: 0; right: 0; left: 0;
+  z-index: 998;
+  padding: 3%;
+  overflow: hidden;
+}
+
+.screen .content > * {
+  max-width: 100%;
+}
+
+.screen .content h1 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.screen .content h2 {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.device-button {
+  margin: 6% 40% 4%;
+  width: 20%;
+  height: 1px;
+  padding: 6% 0;
+  border-radius: 10px 10px 10px 10px;
 }

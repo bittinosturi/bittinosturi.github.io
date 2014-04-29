@@ -22,14 +22,21 @@
 </script>
   </head>
   <body>
-    <header class="container">
-      <h1><b>Bittinosturi</b><br>
-        <small><s>innovatiivinen</s>, <s>asiakaslähtöinen</s>, <s><a href="http://pragdave.me/blog/2014/03/04/time-to-kill-agile/">ketterä</a></s></small>
-        <br><small>rehellinen ohjelmistoyritys</small>
-      </h1><br>
-    </header>
+    <header id="top-menu" class="navbar navbar-static-top"><div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="../">Bittinosturi</a>
+      </div>
+      <nav role="navigation">
+        <ul class="nav navbar-nav">
+          <li><a onclick="_gaq.push(['_trackEvent', 'Navbar', 'Top menu links', 'web-development']);" href="#web-development">Mobiilisivut</a></li>
+          <li><a onclick="_gaq.push(['_trackEvent', 'Navbar', 'Top menu links', 'erp']);" href="#erp">Toiminnanohjaus</a></li>
+          <li><a onclick="_gaq.push(['_trackEvent', 'Navbar', 'Top menu links', 'contact']);" href="#contact">Yhteys</a></li>
+          <li><a onclick="_gaq.push(['_trackEvent', 'Navbar', 'Top menu links', 'tools']);" href="#tools">Työkalut</a></li>
+        </ul>
+      </nav>
+    </div></header>
     <section id="web-development"><div class="container">
-      <h1>Mobiilisivut</h1>
+      <h1 class="oomph"><b>Mobiilisivut</b></h1>
       <h3 id="outrageous-promise">Teemme web-sivuistasi mobiili-, hakukone- ja käyttäjäystävälliset</h3>
       <h2>Asiakkaasi siis <b>löytävät sivusi</b> ja myös <b>löytävät etsimänsä</b> sivuiltasi</b></h2>
       <br>
@@ -46,42 +53,47 @@
           <div class="mic"></div><div class="camera"></div>
           <div class="screen">
             <div class="window"></div>
-            <div class="content">
-              <h1><b>Wow!</b><br>Such business!</h1>
-              <img src="http://i.imgur.com/89DjrE2.gif" alt="generic business people">
-              <h2><b>Much value!</b><br>So technology!</h2>
-            </div>
+            <div class="content"><p style="font-size: 9px;">Responsive<br><img src="/images/coffee.png" style="width: 100%; margin-bottom: 3px;">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras facilisis felis sit amet lorem.<br><br>Vestibulum non arcu a ante feugiat vestibulum. Suspendisse potenti. Integer risus velit, facilisis eget, viverra et, venenatis id, leo. In commodo, dolor quis fermentum ullamcorper</p></div>
           </div>
           <div class="device-button"></div>
+        </div>
+        <div class="mobile-device tablet">
+          <div class="screen">
+            <div class="window"></div>
+            <div class="content"><p style="font-size: 9.5px;">Responsive<br><img src="/images/coffee.png" style="width: 48%; float: right;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras facilisis felis sit amet lorem.<br><br>Vestibulum non arcu a ante feugiat vestibulum. Suspendisse potenti. Integer risus velit, facilisis eget, viverra et, venenatis id, leo. In commodo, dolor quis fermentum ullamcorper<br>Quisque aliquam, nulla ac scelerisque convallis, nisi ligula sagittis risus, at nonummy arcu urna pulvinar nibh. Fusce consectetuer tellus ut nisl. Sed fringilla. 
+Nam molestie nisl at metus. Vestibulum viverra varius enim. <br><br>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse potenti. Etiam cursus purus interdum libero. Vestibulum viverra varius enim.</p></div>
+          </div>
         </div>
       </div>
       <div class="row"></div>
       <div class="col-md-12">
-        <h2><b>Optimoi sivusi mobiililaitteille <a href="#contact">nyt</b></a>.<br>
-        Huonolla mobiilikäytettävyydellä voi olla kohtalokkaita seurauksia<br><img src="http://imgur.com/W6GA7Ob.gif" class="responsive" alt="bad usability leads to doomsday"></h2>
+        <h2><b>Siirrä sivusi mobiiliaikaan <a href="#contact" class="oomph">nyt</b></a>.
       </div>
     </div></section>
     <section id="erp"><div class="container">
-      <h1>Toiminnanohjaus</h1>
-      <p><s>Meiltä nyt Renny Harlin Action Director Enterprise ERP-järjestelmä pilvipalveluna!</s><br>
-      <s>Järjestelmän keräämän Big Datan ansiosta yrityksesi voi viimein keskittyä ydinarvoihinsa ja tuottaa loppuasiakkaan tarpeet tyydyttävää viraalia lisäarvoa!</s><br>
-      <s>Nuku yösi rauhassa: järjestelmän tietoturva on implementoitu viimeisimpien standardien mukaisesti, yhteistyössä alan parhaimpien <a href="http://www.nsa.com">tietoturva-ammattilaisten</a> kanssa!</s><br>
-      <s>Järjestelmä toteuttaa standardit ISO 19148:2012; ISO/DTS 19159-1; ISO/DTS 19139-2</s><br>
-      </p>
+      <h1 class="oomph">Toiminnanohjaus</h1>
       <p>Toimitamme avoimeen lähdekoodiin perustuvat <a href="https://www.openerp.com/">OpenERP-järjestelmät.</a><br>
       Maksat ainoastaan asennuksesta.<br>
-      Avoin lähdekoodi takaa, ettet jää yhden toimittajan loukkuun.<br>
-      </p>
+      Avoin lähdekoodi takaa, ettet jää yhden toimittajan loukkuun.</p>
     </div></section>
     <section id="contact"><div class="container">
-      <h1>Yhteys</h1>
+      <h1 class="oomph">Yhteys</h1>
       <p><b>Ilkka Kujanpää</b><br>
       <a href="mailto:ilkka@bittinosturi.fi">ilkka@bittinosturi.fi</a><br>
       044 966 4890</p>
       <address>Kerttulinkatu 15 G 94<br>
       20500 Turku
       </address>
-      <p>ALV: FI24323170</p>
+      <p>Y-tunnus: 2355131-5</p>
+    </div></section>
+    <section id="tools"><div class="container">
+      <h1 class="oomph">Työkalut</h1>
+      <a href="http://nodejs.org"><img src="http://nodejs.org/images/logo.svg" class="pull-left" alt="node.js"></a>
+      <a href="http://scala-lang.org"><img src="http://scala-lang.org/resources/img/scala-logo-white.png"  class="pull-left" alt="Scala"></a>
+      <a href="http://liftweb.net"><img src="http://liftweb.net/images/liftweb-logo-single-small2.png" class="pull-left" alt="Lift"></a>
+      <a href="http://www.mongodb.org"><img src="http://media.mongodb.org/logo-mongodb-header.png" class="pull-left" alt="mongoDB"></a>
+      <a href="http://couchdb.org"><img src="http://docs.couchdb.org/en/latest/_static/logo.png" class="pull-left" alt="Apache CouchDB"</a>
     </div></section>
   </body>
 </html>

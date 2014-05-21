@@ -108,6 +108,7 @@ section:nth-child(even) {
   width: 100%;
   background: rgb(40,40,40);
   color: #5A5A5A;
+  border: 1px solid lightGray;
 }
 
 .screen .window {
@@ -123,6 +124,7 @@ section:nth-child(even) {
   z-index: 998;
   padding: 3%;
   overflow: hidden;
+  background: white;
 }
 
 .screen .content > * {

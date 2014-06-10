@@ -54,6 +54,10 @@ section:nth-child(even) {
   color: orange;
 }
 
+#software-development .oomph, #software-development a {
+  color: #ca4388;
+}
+
 #erp .oomph, #erp a {
   color: #428BCA;
 }
@@ -106,21 +110,31 @@ section:nth-child(even) {
 
 .screen {
   width: 100%;
-  background: rgb(40,40,40);
+  background: rgb(50,50,50);
   color: #5A5A5A;
   border: 1px solid lightGray;
 }
 
-.screen .window {
+.screen .window, .screen .upper-menu-bar, .screen .content {
   position: absolute;
-  top: 0; bottom: 0; right: 0; left: 0;
+  bottom: 0; right: 0; left: 0;
+}
+
+.screen .window {
+  top: 0; 
   z-index: 999;
-  background: none repeat scroll 0 0 rgba(255, 255,255, 0.2);
+  background: none repeat scroll 0 0 rgba(255, 255,255, 0.15);
+}
+
+.screen .upper-menu-bar {
+  top: 0;
+  z-index: 998;
+  height: 5%;
+  background: rgb(70,70,70);
 }
 
 .screen .content {
-  position: absolute;
-  top: 0; bottom: 0; right: 0; left: 0;
+  top: 5%;
   z-index: 998;
   padding: 3%;
   overflow: hidden;

@@ -50,6 +50,10 @@ section:nth-child(even) {
   background-color: rgb(253, 253, 253);
 }
 
+h1.oomph {
+  text-shadow: 1px 1px gray;
+}
+
 #web-development .oomph, #web-development a {
   color: orange;
 }
@@ -77,6 +81,7 @@ section:nth-child(even) {
   position: relative;
   float: left;
   border: 1px solid lightGray;
+  box-shadow: 0 4px 6px gray;
 }
 
 .mic, .camera, .device-button, .screen {
@@ -173,4 +178,18 @@ section:nth-child(even) {
 #tools img {
   height: 48px;
   margin: 12px;
+}
+
+.example-product .mobile-device {
+  -ms-transition: -ms-transform 0.15s ease-in;
+  -moz-transition: -moz-transform 0.15s ease-in;
+  -webkit-transition: -webkit-transform 0.15s ease-in;
+  -o-transition: -o-transform 0.15s ease-in;
+}
+
+.example-product .mobile-device:hover {
+  -ms-transform: scale(1.025) rotate(-1.5deg);
+  -moz-transform: scale(1.025) rotate(-1.5deg);
+  -webkit-transform: scale(1.025) rotate(-1.5deg);
+  -o-transform: scale(1.025) rotate(-1.5deg);
 }

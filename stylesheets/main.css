@@ -18,6 +18,8 @@ h4, .h4 { font-size: 24px; }
 
 #top-menu .navbar-brand {
   font-size: 20px;
+  color: orange;
+  font-weight: bold;
 }
 
 #top-menu .navbar-nav > li > a {
@@ -47,7 +49,7 @@ section {
 }
 
 section:nth-child(even) {
-  background-color: rgb(253, 253, 253);
+  background-color: rgb(250, 250, 250);
 }
 
 h1.oomph {
@@ -62,11 +64,9 @@ h1.oomph {
   color: #ca4388;
 }
 
-#erp .oomph, #erp a {
+#contact .oomph, #contact a {
   color: #428BCA;
 }
-
-#contact .oomph, #contact a {}
 
 #tools .oomph, #tools a {
   color: white;
@@ -172,7 +172,7 @@ h1.oomph {
 
 #tools {
   color: white;
-  background: rgb(200,200,200) url("/images/doge-gray.png") no-repeat bottom right;
+  background: rgb(100,100,100) url("/images/doge-gray.png") no-repeat bottom right;
 }
 
 #tools img {

@@ -88,6 +88,7 @@ h1.oomph {
   position: relative;
   float: left;
   background: rgb(220, 220, 220);
+  border: 1px solid lightGray;
 }
 
 .mic {

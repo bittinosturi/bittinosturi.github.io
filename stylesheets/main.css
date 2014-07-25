@@ -1,6 +1,6 @@
 body {
   font-size: 21px;
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(252, 252, 252);
 }
 
 h1, .h1 {
@@ -56,6 +56,16 @@ h1.oomph {
   text-shadow: 1px 1px gray;
 }
 
+.background-filter {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px 0;
+}
+
+#web-development {
+  background: url("/images/crane.jpg") bottom / cover;
+  padding: 0;
+}
+
 #web-development .oomph, #web-development a {
   color: orange;
 }
@@ -80,15 +90,15 @@ h1.oomph {
   height: auto;
   position: relative;
   float: left;
-  border: 1px solid lightGray;
-  box-shadow: 0 4px 6px gray;
+  border: 1px solid gray;
+  box-shadow: 0 2px 4px gray;
 }
 
 .mic, .camera, .device-button, .screen {
   position: relative;
   float: left;
   background: rgb(220, 220, 220);
-  border: 1px solid lightGray;
+  border: 1px solid gray;
 }
 
 .mic {
@@ -118,7 +128,6 @@ h1.oomph {
   width: 100%;
   background: rgb(50,50,50);
   color: #5A5A5A;
-  border: 1px solid lightGray;
 }
 
 .screen .window, .screen .upper-menu-bar, .screen .content {
